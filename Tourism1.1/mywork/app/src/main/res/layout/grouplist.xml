@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="我的群组"
+            android:textAlignment="center"
+            android:textSize="30dp"/>
+        <ImageView
+            android:id="@+id/add"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/addgroup"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+    <ListView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lv">
+
+    </ListView>
+</LinearLayout>
